@@ -1,4 +1,4 @@
-package Tests;
+package test;
 
 import manager.ApplicationManager;
 import manager.ApplicationManager;
