@@ -8,7 +8,7 @@ public class LoginTests extends TestBase{
 
     @BeforeMethod
     public void preCondition(){
-        if(app.getUserHelper().isLogged()){
+        if(!app.getUserHelper().isLogged()){
             app.getUserHelper().logout();
         }
     }
@@ -19,12 +19,12 @@ public class LoginTests extends TestBase{
         String password = "Erik12345$";
 
 
-        app.getUserHelper().openLoginRegistrationForm();
-        app.getUserHelper().fillLoginRegistrationForm(email, password);
-        app.getUserHelper().submitLogin();
-        app.getUserHelper().pause(5000);
+        app.getUserHelper().openLoginForm();
+        app.getUserHelper().fillLoginForm(email, password);
+        app.getUserHelper().submitForm();
+
 
         //Assert.assertTrue(isElementPresent(By.xpath("//button[text()='Sign Out']")));
-        Assert.assertTrue(app.getUserHelper().isLogged());
+        Assert.assertTrue(app.getUserHelper().isLoggedSuccess());
     }
 }

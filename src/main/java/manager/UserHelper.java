@@ -2,6 +2,9 @@ package manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class UserHelper extends HelperBase {
 
@@ -10,29 +13,37 @@ public class UserHelper extends HelperBase {
         super(wd);
     }
 
-    public void openLoginRegistrationForm() {
+    public void openLoginForm() {
 
-        click(By.xpath(("//a[@class='navigation-link'][normalize-space()='Log in']")));
+        click(By.xpath("//a[text()=' Log in ']"));
     }
 
 
-    public void fillLoginRegistrationForm(String email, String password) {
-        type(By.xpath("//input[1]"), email);
-        type(By.xpath("//input[2]"), password);
+    public void fillLoginForm(String email, String password) {
+        type(By.id("email"), email);
+        type(By.id("password"), password);
     }
 
-    public void submitLogin() {
+    public void submitForm() {
 
-        click(By.xpath("//button[1]"));
+        WebElement submit= wd.findElement(By.cssSelector("[type='submit']"));
+        submit.submit();
     }
 
     public boolean isLogged() {
-        return isElementPresent(By.xpath("//button[text()=' Sign up ']"));
+        return isElementPresent(By.xpath("//a[text()=' Log in ']"));
 
     }
 
     public void logout() {
 
-        click(By.xpath("//button[text()=' Sign up ']"));
+        click(By.xpath("//a[text()=' Logout ']"));
     }
+public boolean isLoggedSuccess() {
+
+    WebDriverWait wait = new WebDriverWait(wd,10);
+    wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
+
+    return wd.findElement(By.cssSelector(".dialog-container h2")).getText().contains("success");
+}
 }
