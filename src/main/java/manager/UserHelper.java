@@ -1,11 +1,14 @@
 package manager;
 
 import models.User;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import javax.xml.soap.Text;
 
 public class UserHelper extends HelperBase {
 
@@ -56,4 +59,24 @@ public boolean isLoggedSuccess() {
         if(isElementPresent(By.xpath("//button[text()='Ok']")));
         click(By.xpath("//button[text()='Ok']"));
     }
+
+    public boolean isErrorMessageWrongFormat() {
+        if(isElementPresent(By.xpath("//h2[normalize-space()='Wrong email or password']"))){
+
+        }return true;
+    }
+
+    public boolean isButtonPresent() {
+        if(isElementPresent(By.xpath("//button[@disabled]"))) {
+
+        }return true;
+
+    }
+
+    public boolean isErrorTextPresent() {
+        if(isElementPresent(By.xpath("//div[@class='ng-star-inserted']"))){
+
+        }return true;
+    }
 }
+

@@ -53,7 +53,9 @@ public class LoginTests extends TestBase{
         app.getUserHelper().fillLoginForm("eriknet2010mail.ru","Erik12345$");
         app.getUserHelper().submitForm();
 
-        Assert.assertFalse(app.getUserHelper().isLoggedSuccess());
+        //Assert.assertFalse(app.getUserHelper().isLoggedSuccess());
+        Assert.assertTrue(app.getUserHelper().isButtonPresent());
+        Assert.assertTrue(app.getUserHelper().isErrorTextPresent());
     }
     @Test
     public void wrongPasswordLogin(){
@@ -61,7 +63,12 @@ public class LoginTests extends TestBase{
         app.getUserHelper().fillLoginForm("eriknet@2010mail.ru","Erik12345");
         app.getUserHelper().submitForm();
 
-        Assert.assertFalse(app.getUserHelper().isLoggedSuccess());
+        //Assert.assertFalse(app.getUserHelper().isLoggedSuccess());
+
+        //Assert.assertFalse(isElementPresent(By.xpath("//button[text()='Sign Out']")));
+        //Assert.assertFalse(app.getUser().isLogged());
+        Assert.assertTrue(app.getUserHelper().isErrorMessageWrongFormat());
+
     }
     @Test
     public void notRegisteredUser(){
