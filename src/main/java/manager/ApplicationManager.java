@@ -25,6 +25,7 @@ public class ApplicationManager {
     }
 
     public UserHelper getUserHelper() {
+
         return userHelper;
     }
 }

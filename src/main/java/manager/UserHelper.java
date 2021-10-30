@@ -1,5 +1,6 @@
 package manager;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -22,6 +23,10 @@ public class UserHelper extends HelperBase {
     public void fillLoginForm(String email, String password) {
         type(By.id("email"), email);
         type(By.id("password"), password);
+    }
+    public void fillLoginForm(User user) {
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
     }
 
     public void submitForm() {
@@ -46,4 +51,9 @@ public boolean isLoggedSuccess() {
 
     return wd.findElement(By.cssSelector(".dialog-container h2")).getText().contains("success");
 }
+
+    public void clickOkButton() {
+        if(isElementPresent(By.xpath("//button[text()='Ok']")));
+        click(By.xpath("//button[text()='Ok']"));
+    }
 }
