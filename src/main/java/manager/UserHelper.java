@@ -35,6 +35,9 @@ public class UserHelper extends HelperBase {
     public void submitForm() {
 
         WebElement submit= wd.findElement(By.cssSelector("[type='submit']"));
+        new WebDriverWait(wd,10)
+                .until(ExpectedConditions.elementToBeClickable(submit));
+
         submit.submit();
     }
 
@@ -78,5 +81,17 @@ public boolean isLoggedSuccess() {
 
         }return true;
     }
+
+    public void login(User user) {
+        openLoginForm();
+      fillLoginForm(user);
+      submitForm();
+      clickOkButton();
+      pause(1000);
+    }
+
+
+
 }
+
 

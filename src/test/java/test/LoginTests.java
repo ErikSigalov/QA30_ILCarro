@@ -80,6 +80,7 @@ public class LoginTests extends TestBase{
     }
     @AfterMethod
     public void postCondition(){
+
         app.getUserHelper().clickOkButton();
     }
 }
