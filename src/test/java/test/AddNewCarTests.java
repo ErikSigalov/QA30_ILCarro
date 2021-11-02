@@ -2,6 +2,7 @@ package test;
 
 import models.Car;
 import models.User;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -46,7 +47,7 @@ if(app.getUserHelper().isLogged()){
     app.getCar().fillCarForm(car);
     app.getCar().attachedPhoto();
     app.getUserHelper().submitForm();
-
+        Assert.assertTrue(app.getUserHelper().isAddSuccess());
 
     }
 }

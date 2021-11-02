@@ -34,7 +34,7 @@ public class UserHelper extends HelperBase {
 
     public void submitForm() {
 
-        WebElement submit= wd.findElement(By.cssSelector("[type='submit']"));
+        WebElement submit= wd.findElement(By.cssSelector("button[type='submit']"));
         new WebDriverWait(wd,10)
                 .until(ExpectedConditions.elementToBeClickable(submit));
 
@@ -91,7 +91,11 @@ public boolean isLoggedSuccess() {
     }
 
 
+    public boolean isAddSuccess() {
+        if (isElementPresent(By.xpath("//h1[normalize-space()='Car added']"))){
 
+        }return true;
+    }
 }
 
 

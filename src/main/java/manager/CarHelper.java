@@ -45,9 +45,9 @@ public class CarHelper extends HelperBase{
     }
 
     public void select(By locator, String option) {
-        new Select(wd.findElement(locator)).selectByIndex(2); //petrol
+        new Select(wd.findElement(locator)).selectByIndex(1); //petrol
         //new Select(wd.findElement(locator)).selectByValue("option");
-        //new Select(wd.findElement(locator)).selectByVisibleText(" Petrol ");
+        //new Select(wd.findElement(locator)).selectByVisibleText("Electric");
     }
 
     private void typeLocation(String address) {
@@ -64,9 +64,14 @@ public class CarHelper extends HelperBase{
                 return isForm;
     }
 
-    public void attachedPhoto() {
-       wd.findElement(By.id("photos"))
-               .sendKeys("C:\\Users\\User\\OneDrive\\Документы\\GitHub\\QA30_ILCarro\\auto.jpeg");
+    public void attachedPhoto(){
+        wd.findElement(By.cssSelector(".file-input-container"))
+                .sendKeys("C:\\Users\\User\\OneDrive\\Документы\\GitHub\\QA30_ILCarro\\auto.jpeg");
+    }
+
+    public void attachedPhoto1(){
+        wd.findElement(By.cssSelector(".file-input-container"))
+                .sendKeys("C:\\Users\\User\\OneDrive\\Документы\\GitHub\\QA30_ILCarro\\Без названия.jpg");
     }
 }
 
