@@ -108,8 +108,13 @@ public boolean isLoggedSuccess() {
     }
 
 
-    public boolean isErrorMassagePresent() {
-        if (isElementPresent(By.xpath("//div[@class='error ng-star-inserted']"))){
+    public boolean isErrorMassagePresent1() {
+        if (isElementPresent(By.cssSelector("div[class='input-container'] div:nth-child(1)"))){
+
+        }return true;
+    }
+    public boolean isErrorMassagePresent2() {
+        if (isElementPresent(By.cssSelector("div[class='input-container'] div:nth-child(2)"))){
 
         }return true;
     }
@@ -118,8 +123,13 @@ public boolean isLoggedSuccess() {
         click(By.xpath("//div[@class='header']//a[@class='logo']"));
     }
 
-    public boolean isMassageErrorPresent() {
+    public boolean isMassageErrorPresent1() {
         if (isElementPresent(By.cssSelector("div[class='error'] div:nth-child(1)"))){
+
+        }return true;
+    }
+    public boolean isMassageErrorPresent2() {
+        if (isElementPresent(By.cssSelector("div[class='input-container'] div:nth-child(2)"))){
 
         }return true;
     }
