@@ -18,6 +18,7 @@ public class RegistrationTest extends TestBase {
 
         app.getUserHelper().openRegistrationForm();
         app.getUserHelper().fillRegistrationForm(user);
+        //app.getUserHelper().checkPolicy();
         app.getUserHelper().submitForm();
 
         Assert.assertTrue(app.getCar().isRegistered());
@@ -35,7 +36,7 @@ public class RegistrationTest extends TestBase {
 
         app.getUserHelper().openRegistrationForm();
         app.getUserHelper().fillRegistrationForm(user);
-        //app.getUserHelper().submitForm();
+        app.getUserHelper().submitForm();
 
         Assert.assertTrue(app.getUserHelper().isErrorMassagePresent1());
         Assert.assertTrue(app.getUserHelper().isErrorMassagePresent2());

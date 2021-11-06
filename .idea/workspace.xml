@@ -65,7 +65,7 @@
       <recent name="java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationTest.registrationWrongPassword">
+  <component name="RunManager" selected="Gradle.RegistrationTest.registrationWrongEmail">
     <configuration name="AddNewCarTests.addNewTestPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -173,9 +173,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RegistrationTest.registrationWrongEmail" />
         <item itemvalue="Gradle.RegistrationTest.registrationWrongPassword" />
         <item itemvalue="Gradle.RegistrationTest" />
-        <item itemvalue="Gradle.RegistrationTest.registrationWrongEmail" />
         <item itemvalue="Gradle.RegistrationTest.registrationPositiveTest" />
         <item itemvalue="Gradle.AddNewCarTests.addNewTestPositive" />
       </list>

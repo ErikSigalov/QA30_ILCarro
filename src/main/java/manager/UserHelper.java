@@ -2,9 +2,11 @@ package manager;
 
 import models.User;
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import javax.swing.*;
 import javax.xml.soap.Text;
 
 public class UserHelper extends HelperBase {
@@ -132,6 +134,22 @@ public boolean isLoggedSuccess() {
         if (isElementPresent(By.cssSelector("div[class='input-container'] div:nth-child(2)"))){
 
         }return true;
+    }
+
+    public void checkPolicy() {
+
+       //  js.executeScript("document.querySelector('#terms-of-use').click();");
+        // js.executeScript("document.querySelector('#terms-of-use').checked=true;");
+        // click(By.id("email"));
+        Actions actions = new Actions(wd);
+        WebElement container = wd.findElement(By.cssSelector(".checkbox-container"));
+        Rectangle rect = container.getRect();
+        int x = rect.getX() + rect.getWidth()/10;
+        //int x = rect.getX() + 5;
+
+        int y = rect.getY() + (1/4*rect.getHeight());
+
+        actions.moveByOffset(x,y).click().perform();
     }
 }
 
