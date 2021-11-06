@@ -64,14 +64,31 @@ public class CarHelper extends HelperBase{
                 return isForm;
     }
 
-    public void attachedPhoto(){
-        wd.findElement(By.cssSelector(".file-input-container"))
-                .sendKeys("C:\\Users\\User\\OneDrive\\Документы\\GitHub\\QA30_ILCarro\\auto.jpeg");
+    public void attachedPhoto(String Link){
+        wd.findElement(By.id("#photos"))
+                .sendKeys(Link);
     }
 
-    public void attachedPhoto1(){
-        wd.findElement(By.cssSelector(".file-input-container"))
-                .sendKeys("C:\\Users\\User\\OneDrive\\Документы\\GitHub\\QA30_ILCarro\\Без названия.jpg");
+
+    
+
+    public boolean isCarAdded() {
+        new WebDriverWait(wd,10)
+                .until(ExpectedConditions
+                        .visibilityOf(wd.findElement(By.className("dialog-container"))));
+        String text = wd.findElement(By.cssSelector(".dialog-container h1")).getText();
+        return text.contains("Car added");
     }
+
+    public void submitAddedCar() {
+
+        click(By.xpath("//button[.='Search cars']"));
+    }
+
+    public boolean isRegistered() {
+        new WebDriverWait(wd,10)
+.until(ExpectedConditions.visibilityOf(wd.findElement(By.className("dialog-container"))));
+String tx = wd.findElement(By.cssSelector(".dialog-container h1")).getText();
+return tx.contains("Registered");
 }
-
+}

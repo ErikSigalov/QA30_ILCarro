@@ -1,10 +1,7 @@
 package manager;
 
 import models.User;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -91,8 +88,38 @@ public boolean isLoggedSuccess() {
     }
 
 
-    public boolean isAddSuccess() {
-        if (isElementPresent(By.xpath("//h1[normalize-space()='Car added']"))){
+    public void openRegistrationForm() {
+        click(By.xpath("//a[text()=' Sign up ']"));
+    }
+
+    public void fillRegistrationForm(User user) {
+        type(By.id("name"),user.getName());
+        type(By.id("lastName"),user.getLastname());
+        type(By.id("email"),user.getEmail());
+        type(By.id("password"),user.getPassword());
+        click(By.cssSelector("label[for='terms-of-use']"));
+
+
+       // JavascriptExecutor js = (JavascriptExecutor) wd;
+        //js.executeScript("document.querySelector('#terms-of-use').click();");
+        //js.executeScript("document.querySelector('#terms-of-use').checked=true;");
+
+
+    }
+
+
+    public boolean isErrorMassagePresent() {
+        if (isElementPresent(By.xpath("//div[@class='error ng-star-inserted']"))){
+
+        }return true;
+    }
+
+    public void ReturnToTheMainPage() {
+        click(By.xpath("//div[@class='header']//a[@class='logo']"));
+    }
+
+    public boolean isMassageErrorPresent() {
+        if (isElementPresent(By.cssSelector("div[class='error'] div:nth-child(1)"))){
 
         }return true;
     }
