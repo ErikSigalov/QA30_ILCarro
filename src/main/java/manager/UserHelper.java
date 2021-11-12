@@ -91,6 +91,7 @@ public boolean isLoggedSuccess() {
 
 
     public void openRegistrationForm() {
+
         click(By.xpath("//a[text()=' Sign up ']"));
     }
 

@@ -11,10 +11,12 @@ public class CarHelper extends HelperBase{
 
 
     public CarHelper(WebDriver wd) {
+
         super(wd);
     }
 
     public void openCarForm() {
+
         click(By.id("1"));
     }
 
@@ -65,7 +67,7 @@ public class CarHelper extends HelperBase{
     }
 
     public void attachedPhoto(String Link){
-        wd.findElement(By.id("#photos"))
+        wd.findElement(By.id("photos"))
                 .sendKeys(Link);
     }
 

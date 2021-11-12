@@ -60,12 +60,12 @@ public class RegistrationTest extends TestBase {
         app.getUserHelper().ReturnToTheMainPage();
     }
 
-        //@AfterMethod
-        //public void postCondition(){
+        @AfterMethod
+        public void postCondition(){
 
-        //app.getUserHelper().clickOkButton();
+        app.getUserHelper().clickOkButton();
 
-    //}
+    }
 
 
 

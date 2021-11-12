@@ -82,9 +82,9 @@ if(app.getUserHelper().isLogged()){
         Assert.assertTrue(app.getCar().isCarAdded());
     }
 
-  //  @AfterMethod
-   // public void postCondition(){
-    //    app.getCar().submitAddedCar();
-   //     app.getUserHelper().logout();
-   // }
+    @AfterMethod
+    public void postCondition(){
+       app.getCar().submitAddedCar();
+        app.getUserHelper().logout();
+    }
 }
