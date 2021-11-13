@@ -13,8 +13,11 @@ public class RegistrationTest extends TestBase {
         int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
         User user = new User()
                 .withName("Er").withLastname("Snow")
-                .withEmail("smow" + i + "@gmail.com")
+                .withEmail("snow" + i + "@gmail.com")
                 .withPassword("Snow12345!");
+        System.out.println("Email: " + user.getEmail());
+        System.out.println("Password: " + user.getPassword());
+        logger.info("Test Registration Positive starts with >>>" + user.getEmail() + " &&&& " + user.getPassword());
 
         app.getUserHelper().openRegistrationForm();
         app.getUserHelper().fillRegistrationForm(user);
@@ -63,7 +66,7 @@ public class RegistrationTest extends TestBase {
         @AfterMethod
         public void postCondition(){
 
-        app.getUserHelper().clickOkButton();
+        //app.getUserHelper().clickOkButton();
 
     }
 

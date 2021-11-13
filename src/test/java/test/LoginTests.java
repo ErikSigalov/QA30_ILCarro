@@ -20,6 +20,7 @@ public class LoginTests extends TestBase{
 
         String email = "eriknet2010@mail.ru";
         String password = "Erik12345$";
+        System.out.println("email" + "&&" + "password");
 
 
         app.getUserHelper().openLoginForm();
