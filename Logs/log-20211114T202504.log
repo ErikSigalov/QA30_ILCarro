@@ -1,0 +1,4 @@
+20:25:47 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+20:26:04 [Test worker] INFO  manager.NgListener - Start of test --->test
+20:26:12 [Test worker] INFO  manager.NgListener - Success test --->test
+20:26:12 [Test worker] INFO  manager.ApplicationManager - Tests passed

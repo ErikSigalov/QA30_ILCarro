@@ -1,9 +1,10 @@
 package manager;
 
-import org.openqa.selenium.By;
+import com.google.common.io.Files;
+import org.openqa.selenium.*;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import java.io.File;
+import java.io.IOException;
 
 public class HelperBase {
 
@@ -41,7 +42,16 @@ public class HelperBase {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
 
+    public void takeScreenshot(String link) {
+        File tmp = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+        File screenshot = new File(link);
 
+        try{
+            Files.copy(tmp,screenshot);
+        }catch (IOException exception){
+            exception.printStackTrace();
+        }
     }
 }
