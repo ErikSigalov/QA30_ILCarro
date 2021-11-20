@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91074817-f035-4863-ac8e-c105d430f350" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211114T201931.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211114T202504.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211117T123419.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211117T124523.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211117T125300.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/MyListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/NgListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-3219.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
