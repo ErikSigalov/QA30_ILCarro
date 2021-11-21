@@ -1,0 +1,19 @@
+19:00:35 [Test worker] INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+19:04:59 [Test worker] INFO  test.TestBase - Start test -->searchTest
+19:04:59 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: city
+19:05:14 [Test worker] INFO  manager.MyListener - Something went wrong!!
+19:05:14 [Test worker] INFO  manager.MyListener - Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 8172, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c6e81c56-5f44-43e8-a38b-b1b07a51029f
+*** Element info: {Using=id, value=city}
+19:05:14 [Test worker] INFO  manager.MyListener - org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 8172, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c6e81c56-5f44-43e8-a38b-b1b07a51029f
+*** Element info: {Using=id, value=city}
+19:05:14 [Test worker] INFO  test.TestBase - **********************************

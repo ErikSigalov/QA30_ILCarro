@@ -1,0 +1,12 @@
+23:30:59 [Test worker] INFO  manager.NgListener - Start of test --->test
+23:30:59 [Test worker] INFO  manager.NgListener - Start of test --->addNewTestPositive
+23:30:59 [Test worker] INFO  manager.NgListener - Start of test --->addNewTestPositive1
+23:30:59 [Test worker] INFO  manager.NgListener - Start of test --->registrationPositiveTest
+23:30:59 [Test worker] INFO  test.TestBase - Test Registration Positive starts with >>>snow1859@gmail.com &&&& Snow12345!
+23:30:59 [Test worker] INFO  manager.NgListener - Success test --->java.lang.NullPointerException
+23:30:59 [Test worker] INFO  manager.NgListener - Start of test --->test
+23:30:59 [Test worker] INFO  manager.NgListener - Start of test --->addNewTestPositive
+23:30:59 [Test worker] INFO  manager.NgListener - Start of test --->addNewTestPositive1
+23:31:00 [Test worker] INFO  manager.NgListener - Start of test --->registrationPositiveTest
+23:31:00 [Test worker] INFO  test.TestBase - Test Registration Positive starts with >>>snow1860@gmail.com &&&& Snow12345!
+23:31:00 [Test worker] INFO  manager.NgListener - Success test --->java.lang.NullPointerException

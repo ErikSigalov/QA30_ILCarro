@@ -5,7 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91074817-f035-4863-ac8e-c105d430f350" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Logs/log-20211120T231855.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20211120T233057.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20211121T185618.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20211121T190007.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20211121T193056.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20211121T193540.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/manager/SearchHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/SearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1214.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1230.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1255.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1257.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1258.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1259.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1260.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1261.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1917.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2197.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-3500.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/AddNewCarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AddNewCarTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +72,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1zdz5E3D34a4RCvV2HjUfSoQxhn" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -60,9 +93,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -74,34 +109,13 @@
       <recent name="java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationTest.registrationPositiveTest">
+  <component name="RunManager" selected="Gradle.SearchTest.searchTest">
     <configuration name="LoginTests.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;test.LoginTests.test&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RegistrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;test.RegistrationTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -180,13 +194,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="SearchTest.searchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;test.SearchTest.searchTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SearchTest.searchTest" />
         <item itemvalue="Gradle.RegistrationTest.registrationPositiveTest" />
         <item itemvalue="Gradle.LoginTests.test" />
         <item itemvalue="Gradle.RegistrationTest.registrationWrongEmail" />
         <item itemvalue="Gradle.RegistrationTest.registrationWrongPassword" />
-        <item itemvalue="Gradle.RegistrationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -215,5 +250,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

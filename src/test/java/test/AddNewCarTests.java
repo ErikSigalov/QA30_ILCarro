@@ -14,14 +14,14 @@ public class AddNewCarTests extends TestBase{
     //attach photo
     //submit form
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void precondition(){
 if(app.getUserHelper().isLogged()){
     app.getUserHelper().login(new User().withEmail("eriknet2010@mail.ru").withPassword("Erik12345$"));
 }
     }
 
-    @Test
+    @Test(invocationCount = 1,groups = {"web","smoke"})
     public void addNewTestPositive(){
     int i = (int)((System.currentTimeMillis()/1000)%3600);
 
@@ -51,7 +51,7 @@ if(app.getUserHelper().isLogged()){
         Assert.assertTrue(app.getCar().isCarAdded());
 
     }
-    @Test
+    @Test(groups = {"web"})
     public void addNewTestPositive1(){
         int i = (int) ((System.currentTimeMillis()/1000)%3600);
 
@@ -82,7 +82,7 @@ if(app.getUserHelper().isLogged()){
         Assert.assertTrue(app.getCar().isCarAdded());
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition(){
        app.getCar().submitAddedCar();
         app.getUserHelper().logout();

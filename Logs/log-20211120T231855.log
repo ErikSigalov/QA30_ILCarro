@@ -1,0 +1,309 @@
+23:19:28 [Test worker] INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+23:19:40 [Test worker] INFO  test.TestBase - Start test -->addNewTestPositive
+23:19:40 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+23:19:41 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+23:19:41 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+23:19:41 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+23:19:42 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: email
+23:19:42 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: emailwas found
+23:19:42 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: password
+23:19:42 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: passwordwas found
+23:19:43 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: button[type='submit']
+23:19:43 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: button[type='submit']was found
+23:19:43 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Ok']
+23:19:59 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Ok']was found
+23:19:59 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Ok']
+23:20:00 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Ok']was found
+23:20:01 [Test worker] INFO  manager.NgListener - Start of test --->addNewTestPositive
+23:20:01 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: 1
+23:20:01 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: 1was found
+23:20:02 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: h2
+23:20:02 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: h2was found
+23:20:02 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: pickUpPlace
+23:20:02 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: pickUpPlacewas found
+23:20:03 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: div.pac-item
+23:20:04 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: div.pac-itemwas found
+23:20:05 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: make
+23:20:05 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: makewas found
+23:20:05 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: model
+23:20:06 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: modelwas found
+23:20:06 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: year
+23:20:06 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: yearwas found
+23:20:07 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: engine
+23:20:07 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: enginewas found
+23:20:07 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: fuel
+23:20:07 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: fuelwas found
+23:20:07 [Test worker] INFO  manager.MyListener - start search element by locator --->By.tagName: option
+23:20:07 [Test worker] INFO  manager.MyListener - The element with locator ---> By.tagName: optionwas found
+23:20:08 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: gear
+23:20:08 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: gearwas found
+23:20:08 [Test worker] INFO  manager.MyListener - start search element by locator --->By.tagName: option
+23:20:08 [Test worker] INFO  manager.MyListener - The element with locator ---> By.tagName: optionwas found
+23:20:08 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: wheelsDrive
+23:20:08 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: wheelsDrivewas found
+23:20:08 [Test worker] INFO  manager.MyListener - start search element by locator --->By.tagName: option
+23:20:08 [Test worker] INFO  manager.MyListener - The element with locator ---> By.tagName: optionwas found
+23:20:09 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: doors
+23:20:09 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: doorswas found
+23:20:09 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: seats
+23:20:09 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: seatswas found
+23:20:10 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: class
+23:20:10 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: classwas found
+23:20:10 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: fuelConsumption
+23:20:10 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: fuelConsumptionwas found
+23:20:11 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: serialNumber
+23:20:11 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: serialNumberwas found
+23:20:12 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: price
+23:20:12 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: pricewas found
+23:20:12 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: distance
+23:20:12 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: distancewas found
+23:20:13 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .feature-input
+23:20:13 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .feature-inputwas found
+23:20:13 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: about
+23:20:13 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: aboutwas found
+23:20:14 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: photos
+23:20:14 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: photoswas found
+23:20:14 [Test worker] INFO  manager.MyListener - Something went wrong!!
+23:20:14 [Test worker] INFO  manager.MyListener - File not found: C:\Users\User\OneDrive\Документы\GitHub\QA30_ILCarro\car1.jpg
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:20:14 [Test worker] INFO  manager.MyListener - org.openqa.selenium.InvalidArgumentException: File not found: C:\Users\User\OneDrive\Документы\GitHub\QA30_ILCarro\car1.jpg
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:20:15 [Test worker] INFO  manager.MyListener - This link to screenshot with error ---->src/test/screenshots/screenshot-1214.png
+23:20:15 [Test worker] INFO  manager.NgListener - Success test --->org.openqa.selenium.InvalidArgumentException: File not found: C:\Users\User\OneDrive\Документы\GitHub\QA30_ILCarro\car1.jpg
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:20:15 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[.='Search cars']
+23:20:30 [Test worker] INFO  manager.MyListener - Something went wrong!!
+23:20:30 [Test worker] INFO  manager.MyListener - Unable to locate element: //button[.='Search cars']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+*** Element info: {Using=xpath, value=//button[.='Search cars']}
+23:20:30 [Test worker] INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[.='Search cars']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+*** Element info: {Using=xpath, value=//button[.='Search cars']}
+23:20:30 [Test worker] INFO  manager.MyListener - This link to screenshot with error ---->src/test/screenshots/screenshot-1230.png
+23:20:30 [Test worker] INFO  manager.NgListener - Start of test --->addNewTestPositive1
+23:20:30 [Test worker] INFO  test.TestBase - Start test -->notRegisteredUser
+23:20:30 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+23:20:45 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+23:20:45 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Logout ']
+23:20:45 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Logout ']was found
+23:20:49 [Test worker] INFO  manager.NgListener - Start of test --->notRegisteredUser
+23:20:49 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+23:20:49 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+23:20:53 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: email
+23:20:53 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: emailwas found
+23:20:54 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: password
+23:20:54 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: passwordwas found
+23:20:54 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: button[type='submit']
+23:20:54 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: button[type='submit']was found
+23:20:55 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .dialog-container
+23:20:55 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .dialog-containerwas found
+23:20:55 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .dialog-container h2
+23:20:55 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .dialog-container h2was found
+23:20:55 [Test worker] INFO  manager.NgListener - Success test --->notRegisteredUser
+23:20:55 [Test worker] INFO  test.TestBase - **********************************
+23:20:55 [Test worker] INFO  test.TestBase - Start test -->test
+23:20:55 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+23:20:55 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+23:20:55 [Test worker] INFO  manager.NgListener - Start of test --->test
+23:20:55 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+23:20:55 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+23:20:55 [Test worker] INFO  manager.MyListener - Something went wrong!!
+23:20:55 [Test worker] INFO  manager.MyListener - Element <a class="navigation-link ng-star-inserted" href="/login?url=%2Flet-car-work"> is not clickable at point (1157,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:20:55 [Test worker] INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/login?url=%2Flet-car-work"> is not clickable at point (1157,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:20:56 [Test worker] INFO  manager.MyListener - This link to screenshot with error ---->src/test/screenshots/screenshot-1255.png
+23:20:56 [Test worker] INFO  manager.NgListener - Success test --->org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/login?url=%2Flet-car-work"> is not clickable at point (1157,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:20:56 [Test worker] INFO  test.TestBase - **********************************
+23:20:56 [Test worker] INFO  test.TestBase - Start test -->test2
+23:20:56 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+23:20:57 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+23:20:57 [Test worker] INFO  manager.NgListener - Start of test --->test2
+23:20:57 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+23:20:57 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+23:20:57 [Test worker] INFO  manager.MyListener - Something went wrong!!
+23:20:57 [Test worker] INFO  manager.MyListener - Element <a class="navigation-link ng-star-inserted" href="/login?url=%2Flet-car-work"> is not clickable at point (1157,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:20:57 [Test worker] INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/login?url=%2Flet-car-work"> is not clickable at point (1157,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:20:57 [Test worker] INFO  manager.MyListener - This link to screenshot with error ---->src/test/screenshots/screenshot-1257.png
+23:20:57 [Test worker] INFO  manager.NgListener - Success test --->org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/login?url=%2Flet-car-work"> is not clickable at point (1157,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:20:57 [Test worker] INFO  test.TestBase - **********************************
+23:20:57 [Test worker] INFO  test.TestBase - Start test -->wrongEmailLogin
+23:20:57 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+23:20:57 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+23:20:57 [Test worker] INFO  manager.NgListener - Start of test --->wrongEmailLogin
+23:20:57 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+23:20:57 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+23:20:57 [Test worker] INFO  manager.MyListener - Something went wrong!!
+23:20:57 [Test worker] INFO  manager.MyListener - Element <a class="navigation-link ng-star-inserted" href="/login?url=%2Flet-car-work"> is not clickable at point (1157,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:20:57 [Test worker] INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/login?url=%2Flet-car-work"> is not clickable at point (1157,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:20:58 [Test worker] INFO  manager.MyListener - This link to screenshot with error ---->src/test/screenshots/screenshot-1257.png
+23:20:58 [Test worker] INFO  manager.NgListener - Success test --->org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/login?url=%2Flet-car-work"> is not clickable at point (1157,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:20:58 [Test worker] INFO  test.TestBase - **********************************
+23:20:58 [Test worker] INFO  test.TestBase - Start test -->wrongPasswordLogin
+23:20:58 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+23:20:58 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+23:20:58 [Test worker] INFO  manager.NgListener - Start of test --->wrongPasswordLogin
+23:20:58 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+23:20:58 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+23:20:58 [Test worker] INFO  manager.MyListener - Something went wrong!!
+23:20:58 [Test worker] INFO  manager.MyListener - Element <a class="navigation-link ng-star-inserted" href="/login?url=%2Flet-car-work"> is not clickable at point (1157,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:20:58 [Test worker] INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/login?url=%2Flet-car-work"> is not clickable at point (1157,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:20:59 [Test worker] INFO  manager.MyListener - This link to screenshot with error ---->src/test/screenshots/screenshot-1258.png
+23:20:59 [Test worker] INFO  manager.NgListener - Success test --->org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/login?url=%2Flet-car-work"> is not clickable at point (1157,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:20:59 [Test worker] INFO  test.TestBase - **********************************
+23:20:59 [Test worker] INFO  test.TestBase - Start test -->registrationPositiveTest
+23:20:59 [Test worker] INFO  manager.NgListener - Start of test --->registrationPositiveTest
+23:20:59 [Test worker] INFO  test.TestBase - Test Registration Positive starts with >>>snow1259@gmail.com &&&& Snow12345!
+23:20:59 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Sign up ']
+23:20:59 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Sign up ']was found
+23:20:59 [Test worker] INFO  manager.MyListener - Something went wrong!!
+23:20:59 [Test worker] INFO  manager.MyListener - Element <a class="navigation-link ng-star-inserted" href="/registration?url=%2Flet-car-work"> is not clickable at point (1041,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:20:59 [Test worker] INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/registration?url=%2Flet-car-work"> is not clickable at point (1041,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:21:00 [Test worker] INFO  manager.MyListener - This link to screenshot with error ---->src/test/screenshots/screenshot-1259.png
+23:21:00 [Test worker] INFO  manager.NgListener - Success test --->org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/registration?url=%2Flet-car-work"> is not clickable at point (1041,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:21:00 [Test worker] INFO  test.TestBase - **********************************
+23:21:00 [Test worker] INFO  test.TestBase - Start test -->registrationWrongEmail
+23:21:00 [Test worker] INFO  manager.NgListener - Start of test --->registrationWrongEmail
+23:21:00 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Sign up ']
+23:21:00 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Sign up ']was found
+23:21:00 [Test worker] INFO  manager.MyListener - Something went wrong!!
+23:21:00 [Test worker] INFO  manager.MyListener - Element <a class="navigation-link ng-star-inserted" href="/registration?url=%2Flet-car-work"> is not clickable at point (1041,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:21:00 [Test worker] INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/registration?url=%2Flet-car-work"> is not clickable at point (1041,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:21:01 [Test worker] INFO  manager.MyListener - This link to screenshot with error ---->src/test/screenshots/screenshot-1260.png
+23:21:01 [Test worker] INFO  manager.NgListener - Success test --->org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/registration?url=%2Flet-car-work"> is not clickable at point (1041,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:21:01 [Test worker] INFO  test.TestBase - **********************************
+23:21:01 [Test worker] INFO  test.TestBase - Start test -->registrationWrongPassword
+23:21:01 [Test worker] INFO  manager.NgListener - Start of test --->registrationWrongPassword
+23:21:01 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Sign up ']
+23:21:01 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Sign up ']was found
+23:21:01 [Test worker] INFO  manager.MyListener - Something went wrong!!
+23:21:01 [Test worker] INFO  manager.MyListener - Element <a class="navigation-link ng-star-inserted" href="/registration?url=%2Flet-car-work"> is not clickable at point (1041,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:21:01 [Test worker] INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/registration?url=%2Flet-car-work"> is not clickable at point (1041,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:21:02 [Test worker] INFO  manager.MyListener - This link to screenshot with error ---->src/test/screenshots/screenshot-1261.png
+23:21:02 [Test worker] INFO  manager.NgListener - Success test --->org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/registration?url=%2Flet-car-work"> is not clickable at point (1041,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 1004, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da980978-a7cb-4959-8e44-f3c34005575b
+23:21:02 [Test worker] INFO  test.TestBase - **********************************

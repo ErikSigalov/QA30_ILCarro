@@ -1,0 +1,24 @@
+18:57:11 [Test worker] INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+18:58:04 [Test worker] INFO  test.TestBase - Start test -->searchTest
+18:58:04 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: city
+18:58:04 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: citywas found
+18:58:05 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: div.pac-item
+18:58:20 [Test worker] INFO  manager.MyListener - Something went wrong!!
+18:58:20 [Test worker] INFO  manager.MyListener - Unable to locate element: div.pac-item
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7804, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9214bbbc-f1eb-477a-a96c-990c43ab42f1
+*** Element info: {Using=css selector, value=div.pac-item}
+18:58:20 [Test worker] INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: Unable to locate element: div.pac-item
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7804, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9214bbbc-f1eb-477a-a96c-990c43ab42f1
+*** Element info: {Using=css selector, value=div.pac-item}
+18:58:46 [Test worker] INFO  manager.MyListener - This link to screenshot with error ---->src/test/screenshots/screenshot-3500.png
+18:58:46 [Test worker] INFO  test.TestBase - **********************************

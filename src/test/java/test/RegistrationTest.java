@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class RegistrationTest extends TestBase {
 
-    @Test
+    @Test(groups = {"web"})
     public void registrationPositiveTest() {
         int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
         User user = new User()

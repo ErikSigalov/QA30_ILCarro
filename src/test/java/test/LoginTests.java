@@ -12,13 +12,13 @@ import org.testng.annotations.Test;
 @Listeners(NgListener.class)
 public class LoginTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         if(!app.getUserHelper().isLogged()){
             app.getUserHelper().logout();
         }
     }
-    @Test
+    @Test(groups = {"web"})
     public void test(){
         User user = new User().withEmail("eriknet2010@mail.ru").withPassword("Erik12345$");
 

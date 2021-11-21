@@ -18,6 +18,7 @@ public class ApplicationManager {
     UserHelper userHelper;
     CarHelper car;
     String browser;
+    SearchHelper search;
 
     public ApplicationManager(String browser) {
         this.browser = browser;
@@ -39,6 +40,7 @@ public class ApplicationManager {
             userHelper = new UserHelper(wd);
             car = new CarHelper(wd);
             wd.register(new MyListener());
+            search = new SearchHelper(wd);
 
         }
     }
@@ -57,4 +59,7 @@ public class ApplicationManager {
             return car;
         }
 
+    public SearchHelper Search() {
+        return search;
+    }
 }
