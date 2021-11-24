@@ -5,32 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91074817-f035-4863-ac8e-c105d430f350" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211120T231855.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211120T233057.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211121T185618.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211121T190007.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211121T193056.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211121T193540.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/SearchHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/SearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1214.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1230.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1255.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1257.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1258.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1259.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1260.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1261.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1917.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2197.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-3500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20211121T195345.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20211121T203952.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20211123T221210.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20211123T222055.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20211124T180558.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20211124T185456.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20211124T192826.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20211124T193346.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/manager/MyDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/AddNewCarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AddNewCarTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/SearchHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/SearchHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/LoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/SearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,13 +98,55 @@
       <recent name="java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchTest.searchTest">
-    <configuration name="LoginTests.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.RegistrationTest.registrationPositiveTest">
+    <configuration name="LoginTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;test.LoginTests.test&quot;" />
+        <option name="scriptParameters" value="--tests &quot;test.LoginTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginTests.wrongEmailLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;test.LoginTests.wrongEmailLogin&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;test.RegistrationTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -152,54 +183,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTest.registrationWrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SearchTest.searchTestYear" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;test.RegistrationTest.registrationWrongEmail&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RegistrationTest.registrationWrongPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;test.RegistrationTest.registrationWrongPassword&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SearchTest.searchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;test.SearchTest.searchTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;test.SearchTest.searchTestYear&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -217,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SearchTest.searchTest" />
         <item itemvalue="Gradle.RegistrationTest.registrationPositiveTest" />
-        <item itemvalue="Gradle.LoginTests.test" />
-        <item itemvalue="Gradle.RegistrationTest.registrationWrongEmail" />
-        <item itemvalue="Gradle.RegistrationTest.registrationWrongPassword" />
+        <item itemvalue="Gradle.SearchTest.searchTestYear" />
+        <item itemvalue="Gradle.LoginTests.wrongEmailLogin" />
+        <item itemvalue="Gradle.LoginTests" />
+        <item itemvalue="Gradle.RegistrationTest" />
       </list>
     </recent_temporary>
   </component>

@@ -1,0 +1,6 @@
+21:01:10 [Test worker] INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+21:01:24 [Test worker] INFO  manager.NgListener - Success test --->org.testng.internal.reflect.MethodMatcherException: 
+[public void test.LoginTests.test()] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: test([])
+Arguments: [(models.User) User{name='null', lastname='null', email='eriknet2010@mail.ru', password='Erik12345$'}]

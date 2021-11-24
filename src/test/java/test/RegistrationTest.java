@@ -1,5 +1,6 @@
 package test;
 
+import manager.MyDataProvider;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -8,11 +9,11 @@ import org.testng.annotations.Test;
 
 public class RegistrationTest extends TestBase {
 
-    @Test(groups = {"web"})
+    @Test(dataProvider = "registrationCSV",dataProviderClass = MyDataProvider.class)
     public void registrationPositiveTest() {
         int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
         User user = new User()
-                .withName("Er").withLastname("Snow")
+                .withName("Eril").withLastname("Snows")
                 .withEmail("snow" + i + "@gmail.com")
                 .withPassword("Snow12345!");
         System.out.println("Email: " + user.getEmail());
@@ -39,7 +40,7 @@ public class RegistrationTest extends TestBase {
 
         app.getUserHelper().openRegistrationForm();
         app.getUserHelper().fillRegistrationForm(user);
-        app.getUserHelper().submitForm();
+        //app.getUserHelper().submitForm();
 
         Assert.assertTrue(app.getUserHelper().isErrorMassagePresent1());
         Assert.assertTrue(app.getUserHelper().isErrorMassagePresent2());

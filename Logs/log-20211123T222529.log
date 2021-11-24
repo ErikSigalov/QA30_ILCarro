@@ -1,0 +1,22 @@
+22:26:01 [Test worker] INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+22:26:11 [Test worker] INFO  test.TestBase - Start test -->registrationPositiveTest
+22:26:11 [Test worker] INFO  test.TestBase - Test Registration Positive starts with >>>snow1571@gmail.com &&&& Snow12345!
+22:26:11 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Sign up ']
+22:26:11 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Sign up ']was found
+22:26:12 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: name
+22:26:12 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: namewas found
+22:26:12 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: lastName
+22:26:12 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: lastNamewas found
+22:26:13 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: email
+22:26:13 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: emailwas found
+22:26:14 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: password
+22:26:14 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: passwordwas found
+22:26:14 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: label[for='terms-of-use']
+22:26:14 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: label[for='terms-of-use']was found
+22:26:15 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: button[type='submit']
+22:26:15 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: button[type='submit']was found
+22:26:15 [Test worker] INFO  manager.MyListener - start search element by locator --->By.className: dialog-container
+22:26:16 [Test worker] INFO  manager.MyListener - The element with locator ---> By.className: dialog-containerwas found
+22:26:17 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .dialog-container h1
+22:26:17 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .dialog-container h1was found
+22:26:17 [Test worker] INFO  test.TestBase - **********************************
