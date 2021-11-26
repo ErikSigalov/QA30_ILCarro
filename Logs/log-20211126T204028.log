@@ -1,0 +1,22 @@
+20:41:04 [Test worker] INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+20:41:24 [Test worker] INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+20:41:25 [Test worker] INFO  test.TestBase - Start test -->registrationWrongEmail
+20:41:25 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Sign up ']
+20:41:25 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Sign up ']was found
+20:41:26 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: name
+20:41:26 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: namewas found
+20:41:27 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: lastName
+20:41:27 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: lastNamewas found
+20:41:28 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: email
+20:41:28 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: emailwas found
+20:41:29 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: password
+20:41:29 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: passwordwas found
+20:41:30 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: label[for='terms-of-use']
+20:41:30 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: label[for='terms-of-use']was found
+20:41:31 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: div[class='error'] div:nth-child(1)
+20:41:31 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: div[class='error'] div:nth-child(1)was found
+20:41:31 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: div[class='input-container'] div:nth-child(2)
+20:41:31 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: div[class='input-container'] div:nth-child(2)was found
+20:41:31 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //div[@class='header']//a[@class='logo']
+20:41:31 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //div[@class='header']//a[@class='logo']was found
+20:41:37 [Test worker] INFO  test.TestBase - **********************************

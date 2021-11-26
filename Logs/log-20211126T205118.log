@@ -1,0 +1,17 @@
+20:51:54 [Test worker] INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+20:52:10 [Test worker] INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+20:52:11 [Test worker] INFO  test.TestBase - Start test -->wrongEmailLogin
+20:52:11 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+20:52:11 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+20:52:11 [Test worker] INFO  manager.NgListener - Start of test --->wrongEmailLogin
+20:52:11 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+20:52:11 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+20:52:12 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: email
+20:52:12 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: emailwas found
+20:52:14 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: password
+20:52:14 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: passwordwas found
+20:52:14 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [type='submit']
+20:52:14 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit']was found
+20:52:14 [Test worker] INFO  manager.NgListener - Success test --->java.lang.AssertionError: expected [false] but found [true]
+20:52:14 [Test worker] INFO  test.TestBase - **********************************
+20:52:14 [Test worker] INFO  manager.ApplicationManager - The browser  has been closed

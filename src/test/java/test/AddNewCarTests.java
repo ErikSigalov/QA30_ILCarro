@@ -17,7 +17,7 @@ public class AddNewCarTests extends TestBase{
     @BeforeMethod(alwaysRun = true)
     public void precondition(){
 if(app.getUserHelper().isLogged()){
-    app.getUserHelper().login(new User().withEmail("eriknet2010@mail.ru").withPassword("Erik12345$"));
+    app.getUserHelper().login(new User().withEmail(app.email()).withPassword(app.password()));
 }
     }
 
@@ -46,7 +46,7 @@ if(app.getUserHelper().isLogged()){
             .build();
     app.getCar().openCarForm();
     app.getCar().fillCarForm(car);
-    app.getCar().attachedPhoto("C:\\Users\\User\\OneDrive\\Документы\\GitHub\\QA30_ILCarro\\car1.jpg");
+    app.getCar().attachedPhoto("C:\\Erik QA 30\\auto.jpeg");
     app.getUserHelper().submitForm();
         Assert.assertTrue(app.getCar().isCarAdded());
 
@@ -77,7 +77,7 @@ if(app.getUserHelper().isLogged()){
 
         app.getCar().openCarForm();
         app.getCar().fillCarForm(car);
-        app.getCar().attachedPhoto("C:\\Users\\User\\OneDrive\\Документы\\GitHub\\QA30_ILCarro\\Без названия.jpg");
+        app.getCar().attachedPhoto("C:\\Erik QA 30\\auto.jpeg");
         app.getUserHelper().submitForm();
         Assert.assertTrue(app.getCar().isCarAdded());
     }

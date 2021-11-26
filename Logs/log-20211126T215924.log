@@ -1,0 +1,44 @@
+21:59:56 [Test worker] INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+22:00:19 [Test worker] INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+22:00:19 [Test worker] INFO  test.TestBase - Start test -->test
+22:00:20 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+22:00:20 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+22:00:20 [Test worker] INFO  manager.NgListener - Start of test --->test
+22:00:20 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+22:00:20 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+22:00:21 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: email
+22:00:21 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: emailwas found
+22:00:23 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: password
+22:00:23 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: passwordwas found
+22:00:23 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [type='submit']
+22:00:24 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit']was found
+22:00:24 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Ok']
+22:00:25 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Ok']was found
+22:00:25 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Ok']
+22:00:25 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Ok']was found
+22:00:25 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //h2[normalize-space()='Logged in success']
+22:00:33 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //h2[normalize-space()='Logged in success']was found
+22:00:33 [Test worker] INFO  manager.NgListener - Success test --->java.lang.AssertionError: expected [true] but found [false]
+22:00:33 [Test worker] INFO  test.TestBase - **********************************
+22:00:33 [Test worker] INFO  test.TestBase - Start test -->test
+22:00:33 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+22:00:41 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+22:00:41 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Logout ']
+22:00:41 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Logout ']was found
+22:00:42 [Test worker] INFO  manager.NgListener - Start of test --->test
+22:00:42 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+22:00:42 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+22:00:43 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: email
+22:00:43 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: emailwas found
+22:00:43 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: password
+22:00:43 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: passwordwas found
+22:00:44 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [type='submit']
+22:00:44 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit']was found
+22:00:45 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Ok']
+22:00:46 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Ok']was found
+22:00:46 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Ok']
+22:00:46 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Ok']was found
+22:00:46 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //h2[normalize-space()='Logged in success']
+22:00:54 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //h2[normalize-space()='Logged in success']was found
+22:00:54 [Test worker] INFO  manager.NgListener - Success test --->java.lang.AssertionError: expected [true] but found [false]
+22:00:54 [Test worker] INFO  test.TestBase - **********************************

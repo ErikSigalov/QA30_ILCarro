@@ -1,0 +1,98 @@
+18:47:01 [Test worker] INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+18:47:12 [Test worker] INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+18:47:13 [Test worker] INFO  test.TestBase - Start test -->addNewTestPositive
+18:47:13 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+18:47:13 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+18:47:13 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+18:47:13 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+18:47:14 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: email
+18:47:14 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: emailwas found
+18:47:14 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: password
+18:47:14 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: passwordwas found
+18:47:15 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [type='submit']
+18:47:15 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit']was found
+18:47:16 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Ok']
+18:47:18 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Ok']was found
+18:47:18 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Ok']
+18:47:18 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Ok']was found
+18:47:20 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: 1
+18:47:20 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: 1was found
+18:47:21 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: h2
+18:47:21 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: h2was found
+18:47:21 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: pickUpPlace
+18:47:21 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: pickUpPlacewas found
+18:47:21 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: div.pac-item
+18:47:22 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: div.pac-itemwas found
+18:47:23 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: make
+18:47:23 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: makewas found
+18:47:24 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: model
+18:47:24 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: modelwas found
+18:47:25 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: year
+18:47:25 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: yearwas found
+18:47:25 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: engine
+18:47:25 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: enginewas found
+18:47:25 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: fuel
+18:47:26 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: fuelwas found
+18:47:26 [Test worker] INFO  manager.MyListener - start search element by locator --->By.tagName: option
+18:47:26 [Test worker] INFO  manager.MyListener - The element with locator ---> By.tagName: optionwas found
+18:47:26 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: gear
+18:47:26 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: gearwas found
+18:47:26 [Test worker] INFO  manager.MyListener - start search element by locator --->By.tagName: option
+18:47:26 [Test worker] INFO  manager.MyListener - The element with locator ---> By.tagName: optionwas found
+18:47:26 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: wheelsDrive
+18:47:27 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: wheelsDrivewas found
+18:47:27 [Test worker] INFO  manager.MyListener - start search element by locator --->By.tagName: option
+18:47:27 [Test worker] INFO  manager.MyListener - The element with locator ---> By.tagName: optionwas found
+18:47:27 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: doors
+18:47:27 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: doorswas found
+18:47:27 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: seats
+18:47:27 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: seatswas found
+18:47:28 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: class
+18:47:28 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: classwas found
+18:47:28 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: fuelConsumption
+18:47:28 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: fuelConsumptionwas found
+18:47:29 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: serialNumber
+18:47:29 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: serialNumberwas found
+18:47:29 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: price
+18:47:29 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: pricewas found
+18:47:30 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: distance
+18:47:30 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: distancewas found
+18:47:30 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .feature-input
+18:47:31 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .feature-inputwas found
+18:47:31 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: about
+18:47:31 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: aboutwas found
+18:47:32 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: photos
+18:47:32 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: photoswas found
+18:47:32 [Test worker] INFO  manager.MyListener - Something went wrong!!
+18:47:32 [Test worker] INFO  manager.MyListener - File not found: Users/User/OneDrive/Документы/GitHub/QA30_ILCarro/car1.jpg
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 20196, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 30377186-b291-43bb-9d37-cdb781dd9d43
+18:47:32 [Test worker] INFO  manager.MyListener - org.openqa.selenium.InvalidArgumentException: File not found: Users/User/OneDrive/Документы/GitHub/QA30_ILCarro/car1.jpg
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 20196, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 30377186-b291-43bb-9d37-cdb781dd9d43
+18:47:33 [Test worker] INFO  manager.MyListener - This link to screenshot with error ---->src/test/screenshots/screenshot-2852.png
+18:47:33 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[.='Search cars']
+18:47:41 [Test worker] INFO  manager.MyListener - Something went wrong!!
+18:47:41 [Test worker] INFO  manager.MyListener - Unable to locate element: //button[.='Search cars']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 20196, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 30377186-b291-43bb-9d37-cdb781dd9d43
+*** Element info: {Using=xpath, value=//button[.='Search cars']}
+18:47:41 [Test worker] INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[.='Search cars']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 20196, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 30377186-b291-43bb-9d37-cdb781dd9d43
+*** Element info: {Using=xpath, value=//button[.='Search cars']}
+18:47:41 [Test worker] INFO  manager.MyListener - This link to screenshot with error ---->src/test/screenshots/screenshot-2861.png

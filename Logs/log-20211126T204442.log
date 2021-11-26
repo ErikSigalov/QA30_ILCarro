@@ -1,0 +1,64 @@
+20:45:13 [Test worker] INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+20:45:34 [Test worker] INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+20:45:35 [Test worker] INFO  test.TestBase - Start test -->searchTest
+20:45:35 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: city
+20:45:35 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: citywas found
+20:45:36 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: div.pac-item
+20:45:36 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: div.pac-itemwas found
+20:45:38 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: dates
+20:45:38 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: dateswas found
+20:45:39 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[@aria-label='Next month']
+20:45:39 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[@aria-label='Next month']was found
+20:45:40 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //div[.=' 25 ']
+20:45:40 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //div[.=' 25 ']was found
+20:45:41 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //div[.=' 26 ']
+20:45:41 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //div[.=' 26 ']was found
+20:45:42 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [type='submit']
+20:45:42 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit']was found
+20:45:43 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .cars-container
+20:45:44 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .cars-containerwas found
+20:45:44 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //div[@class='header']//a[@class='logo']
+20:45:44 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //div[@class='header']//a[@class='logo']was found
+20:45:47 [Test worker] INFO  test.TestBase - **********************************
+20:45:47 [Test worker] INFO  test.TestBase - Start test -->searchTest2
+20:45:47 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: city
+20:45:47 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: citywas found
+20:45:49 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: div.pac-item
+20:45:49 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: div.pac-itemwas found
+20:45:50 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: dates
+20:45:50 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: dateswas found
+20:45:51 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //div[.=' 30 ']
+20:45:51 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //div[.=' 30 ']was found
+20:45:52 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[@aria-label='Next month']
+20:45:52 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[@aria-label='Next month']was found
+20:45:52 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //div[.=' 12 ']
+20:45:53 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //div[.=' 12 ']was found
+20:45:53 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [type='submit']
+20:45:53 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit']was found
+20:45:55 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .cars-container
+20:45:56 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .cars-containerwas found
+20:45:56 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //div[@class='header']//a[@class='logo']
+20:45:57 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //div[@class='header']//a[@class='logo']was found
+20:46:00 [Test worker] INFO  test.TestBase - **********************************
+20:46:00 [Test worker] INFO  test.TestBase - Start test -->searchTestYear
+20:46:00 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: city
+20:46:00 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: citywas found
+20:46:01 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: div.pac-item
+20:46:02 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: div.pac-itemwas found
+20:46:03 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: dates
+20:46:03 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: dateswas found
+20:46:04 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[@aria-label='Next month']
+20:46:04 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[@aria-label='Next month']was found
+20:46:04 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[@aria-label='Next month']
+20:46:04 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[@aria-label='Next month']was found
+20:46:05 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //div[.=' 25 ']
+20:46:05 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //div[.=' 25 ']was found
+20:46:06 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[@aria-label='Next month']
+20:46:06 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[@aria-label='Next month']was found
+20:46:06 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[@aria-label='Next month']
+20:46:06 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[@aria-label='Next month']was found
+20:46:06 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //div[.=' 25 ']
+20:46:06 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //div[.=' 25 ']was found
+20:46:12 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //div[@class='header']//a[@class='logo']
+20:46:12 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //div[@class='header']//a[@class='logo']was found
+20:46:14 [Test worker] INFO  test.TestBase - **********************************

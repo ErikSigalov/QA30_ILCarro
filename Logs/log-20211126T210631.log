@@ -1,0 +1,25 @@
+21:07:03 [Test worker] INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+21:07:19 [Test worker] INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+21:07:20 [Test worker] INFO  test.TestBase - Start test -->wrongPasswordLogin
+21:07:20 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+21:07:20 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+21:07:20 [Test worker] INFO  manager.NgListener - Start of test --->wrongPasswordLogin
+21:07:20 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+21:07:20 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+21:07:20 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: email
+21:07:20 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: emailwas found
+21:07:21 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: password
+21:07:21 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: passwordwas found
+21:07:21 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [type='submit']
+21:07:21 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit']was found
+21:07:22 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: button[type='button']
+21:07:23 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: button[type='button']was found
+21:07:23 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [type='submit']
+21:07:23 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit']was found
+21:07:23 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //h2[normalize-space()='Wrong email or password']
+21:07:31 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //h2[normalize-space()='Wrong email or password']was found
+21:07:31 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //div[@class='header']//a[@class='logo']
+21:07:31 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //div[@class='header']//a[@class='logo']was found
+21:07:33 [Test worker] INFO  manager.NgListener - Success test --->wrongPasswordLogin
+21:07:33 [Test worker] INFO  test.TestBase - **********************************
+21:07:33 [Test worker] INFO  manager.ApplicationManager - The browser  has been closed

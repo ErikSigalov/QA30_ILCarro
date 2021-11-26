@@ -1,0 +1,40 @@
+21:39:26 [Test worker] INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+21:39:53 [Test worker] INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+21:39:54 [Test worker] INFO  test.TestBase - Start test -->test
+21:39:54 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+21:39:54 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+21:39:54 [Test worker] INFO  manager.NgListener - Start of test --->test
+21:39:54 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+21:39:54 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+21:39:55 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: email
+21:39:55 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: emailwas found
+21:39:56 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: password
+21:39:56 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: passwordwas found
+21:39:57 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [type='submit']
+21:39:57 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit']was found
+21:39:57 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //div[@class='dialog-container']
+21:39:58 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //div[@class='dialog-container']was found
+21:39:58 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //h2[normalize-space()='Logged in success']
+21:39:58 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //h2[normalize-space()='Logged in success']was found
+21:39:58 [Test worker] INFO  manager.NgListener - Success test --->test
+21:39:58 [Test worker] INFO  test.TestBase - **********************************
+21:39:58 [Test worker] INFO  test.TestBase - Start test -->test
+21:39:58 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+21:40:06 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+21:40:06 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Logout ']
+21:40:06 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Logout ']was found
+21:40:06 [Test worker] INFO  manager.MyListener - Something went wrong!!
+21:40:06 [Test worker] INFO  manager.MyListener - Element <a class="navigation-link ng-star-inserted" href="/logout?url=%2Fsearch"> is not clickable at point (973,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 8104, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 96a7888a-9259-4bb7-bc31-dca6a18eeae4
+21:40:06 [Test worker] INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/logout?url=%2Fsearch"> is not clickable at point (973,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 8104, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 96a7888a-9259-4bb7-bc31-dca6a18eeae4
+21:40:08 [Test worker] INFO  manager.MyListener - This link to screenshot with error ---->src/test/screenshots/screenshot-2406.png
+21:40:08 [Test worker] INFO  manager.NgListener - Start of test --->test

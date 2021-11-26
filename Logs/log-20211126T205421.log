@@ -1,0 +1,21 @@
+20:55:04 [Test worker] INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+20:55:15 [Test worker] INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+20:55:16 [Test worker] INFO  test.TestBase - Start test -->wrongEmailLogin
+20:55:16 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+20:55:16 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+20:55:16 [Test worker] INFO  manager.NgListener - Start of test --->wrongEmailLogin
+20:55:16 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+20:55:16 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+20:55:17 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: email
+20:55:17 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: emailwas found
+20:55:18 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: password
+20:55:18 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: passwordwas found
+20:55:19 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [type='submit']
+20:55:19 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit']was found
+20:55:19 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //div[@class='ng-star-inserted']
+20:55:27 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //div[@class='ng-star-inserted']was found
+20:55:27 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //div[@class='header']//a[@class='logo']
+20:55:27 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //div[@class='header']//a[@class='logo']was found
+20:55:30 [Test worker] INFO  manager.NgListener - Success test --->wrongEmailLogin
+20:55:30 [Test worker] INFO  test.TestBase - **********************************
+20:55:30 [Test worker] INFO  manager.ApplicationManager - The browser  has been closed

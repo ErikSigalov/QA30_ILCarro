@@ -10,15 +10,15 @@ import org.testng.annotations.Test;
 public class RegistrationTest extends TestBase {
 
     @Test(dataProvider = "registrationCSV",dataProviderClass = MyDataProvider.class)
-    public void registrationPositiveTest() {
-        int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
-        User user = new User()
-                .withName("Eril").withLastname("Snows")
-                .withEmail("snow" + i + "@gmail.com")
-                .withPassword("Snow12345!");
-        System.out.println("Email: " + user.getEmail());
-        System.out.println("Password: " + user.getPassword());
-        logger.info("Test Registration Positive starts with >>>" + user.getEmail() + " &&&& " + user.getPassword());
+    public void registrationPositiveTest(User user) {
+       // int i = (int) ((System.currentTimeMillis() / 1000) % 3600);
+       // User user = new User()
+            //    .withName("Eril").withLastname("Snows")
+           //     .withEmail("snow" + i + "@gmail.com")
+         //       .withPassword("Snow12345!");
+       // System.out.println("Email: " + user.getEmail());
+        //System.out.println("Password: " + user.getPassword());
+       // logger.info("Test Registration Positive starts with >>>" + user.getEmail() + " &&&& " + user.getPassword());
 
         app.getUserHelper().openRegistrationForm();
         app.getUserHelper().fillRegistrationForm(user);
@@ -70,8 +70,6 @@ public class RegistrationTest extends TestBase {
         //app.getUserHelper().clickOkButton();
 
     }
-
-
 
 }
 

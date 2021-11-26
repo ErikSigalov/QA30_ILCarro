@@ -9,6 +9,11 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
@@ -19,24 +24,30 @@ public class ApplicationManager {
     CarHelper car;
     String browser;
     SearchHelper search;
+    Properties properties;
 
     public ApplicationManager(String browser) {
+
         this.browser = browser;
+        properties = new Properties();
     }
 
 
-    public void init() {
+    public void init() throws IOException {
+        String target = System.getProperty("target", "config");
+        properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
+
         if (browser.equals(BrowserType.CHROME)) {
             wd = new EventFiringWebDriver(new ChromeDriver());
             logger.info("Tests starts on Chrome Driver");
         } else if (browser.equals(BrowserType.FIREFOX)) {
             wd = new EventFiringWebDriver(new FirefoxDriver());
-
             logger.info("Tests starts on FireFox Driver");
 
             wd.manage().window().maximize();
-            wd.navigate().to("https://ilcarro.xyz/search");
-            wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+            wd.navigate().to(properties.getProperty("web.baseURL"));
+            logger.info("Navigate to link ---> " + wd.getCurrentUrl());
+            wd.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
             userHelper = new UserHelper(wd);
             car = new CarHelper(wd);
             wd.register(new MyListener());
@@ -44,22 +55,33 @@ public class ApplicationManager {
 
         }
     }
-        public void stop () {
 
-            logger.info("Tests passed");
-            wd.quit();
-        }
+    public void stop() {
 
-        public UserHelper getUserHelper () {
+        logger.info("The browser  has been closed");
+        wd.quit();
+    }
 
-            return userHelper;
-        }
-        public CarHelper getCar () {
+    public UserHelper getUserHelper() {
 
-            return car;
-        }
+        return userHelper;
+    }
+
+    public CarHelper getCar() {
+
+        return car;
+    }
 
     public SearchHelper Search() {
+
         return search;
+    }
+
+    public String email() {
+        return properties.getProperty("web.email");
+    }
+
+    public String password() {
+        return properties.getProperty("web.password");
     }
 }

@@ -1,0 +1,40 @@
+21:56:00 [Test worker] INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+21:56:18 [Test worker] INFO  manager.ApplicationManager - Navigate to link ---> https://ilcarro.xyz/search
+21:56:18 [Test worker] INFO  test.TestBase - Start test -->test
+21:56:18 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+21:56:18 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+21:56:18 [Test worker] INFO  manager.NgListener - Start of test --->test
+21:56:18 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+21:56:18 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+21:56:19 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: email
+21:56:19 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: emailwas found
+21:56:20 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: password
+21:56:20 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: passwordwas found
+21:56:20 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [type='submit']
+21:56:20 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit']was found
+21:56:21 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Ok']
+21:56:22 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Ok']was found
+21:56:22 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Ok']
+21:56:22 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Ok']was found
+21:56:22 [Test worker] INFO  manager.NgListener - Success test --->test
+21:56:22 [Test worker] INFO  test.TestBase - **********************************
+21:56:22 [Test worker] INFO  test.TestBase - Start test -->test
+21:56:22 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+21:56:31 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+21:56:31 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Logout ']
+21:56:31 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Logout ']was found
+21:56:32 [Test worker] INFO  manager.NgListener - Start of test --->test
+21:56:32 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+21:56:32 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+21:56:32 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: email
+21:56:32 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: emailwas found
+21:56:32 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: password
+21:56:32 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: passwordwas found
+21:56:33 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [type='submit']
+21:56:33 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit']was found
+21:56:33 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Ok']
+21:56:34 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Ok']was found
+21:56:34 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Ok']
+21:56:34 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Ok']was found
+21:56:34 [Test worker] INFO  manager.NgListener - Success test --->test
+21:56:34 [Test worker] INFO  test.TestBase - **********************************

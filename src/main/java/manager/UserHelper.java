@@ -26,18 +26,20 @@ public class UserHelper extends HelperBase {
         type(By.id("email"), email);
         type(By.id("password"), password);
     }
+
     public void fillLoginForm(User user) {
         type(By.id("email"), user.getEmail());
         type(By.id("password"), user.getPassword());
     }
 
     public void submitForm() {
-
-        WebElement submit= wd.findElement(By.cssSelector("button[type='submit']"));
-        new WebDriverWait(wd,10)
+        // click(By.cssSelector("[type='submit']"));
+        WebElement submit = wd.findElement(By.cssSelector("[type='submit']"));
+        new WebDriverWait(wd, 10)
                 .until(ExpectedConditions.elementToBeClickable(submit));
 
         submit.submit();
+
     }
 
     public boolean isLogged() {
@@ -49,44 +51,46 @@ public class UserHelper extends HelperBase {
 
         click(By.xpath("//a[text()=' Logout ']"));
     }
-public boolean isLoggedSuccess() {
 
-    WebDriverWait wait = new WebDriverWait(wd,10);
-    wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
-
-    return wd.findElement(By.cssSelector(".dialog-container h2")).getText().contains("success");
-}
+    public boolean isLoggedSuccess() {
+        return isElementPresent(By.xpath("//div[@class='dialog-container']"));
+    }
 
     public void clickOkButton() {
-        if(isElementPresent(By.xpath("//button[text()='Ok']")));
-        click(By.xpath("//button[text()='Ok']"));
+
+        if(isElementPresent(By.xpath("//button[text()='Ok']"))){
+            click(By.xpath("//button[text()='Ok']"));
+        }
     }
 
     public boolean isErrorMessageWrongFormat() {
-        if(isElementPresent(By.xpath("//h2[normalize-space()='Wrong email or password']"))){
+        if (isElementPresent(By.xpath("//h2[normalize-space()='Wrong email or password']"))) {
 
-        }return true;
+        }
+        return true;
     }
 
     public boolean isButtonPresent() {
-        if(isElementPresent(By.xpath("//button[@disabled]"))) {
+        if (isElementPresent(By.xpath("//button[@disabled]"))) {
 
-        }return true;
+        }
+        return true;
 
     }
 
     public boolean isErrorTextPresent() {
-        if(isElementPresent(By.xpath("//div[@class='ng-star-inserted']"))){
+        if (isElementPresent(By.xpath("//div[@class='ng-star-inserted']"))) {
 
-        }return true;
+        }
+        return true;
     }
 
     public void login(User user) {
         openLoginForm();
-      fillLoginForm(user);
-      submitForm();
-      clickOkButton();
-      pause(1000);
+        fillLoginForm(user);
+        submitForm();
+        clickOkButton();
+        pause(1000);
     }
 
 
@@ -96,14 +100,14 @@ public boolean isLoggedSuccess() {
     }
 
     public void fillRegistrationForm(User user) {
-        type(By.id("name"),user.getName());
-        type(By.id("lastName"),user.getLastname());
-        type(By.id("email"),user.getEmail());
-        type(By.id("password"),user.getPassword());
+        type(By.id("name"), user.getName());
+        type(By.id("lastName"), user.getLastname());
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
         click(By.cssSelector("label[for='terms-of-use']"));
 
 
-       // JavascriptExecutor js = (JavascriptExecutor) wd;
+        // JavascriptExecutor js = (JavascriptExecutor) wd;
         //js.executeScript("document.querySelector('#terms-of-use').click();");
         //js.executeScript("document.querySelector('#terms-of-use').checked=true;");
 
@@ -112,14 +116,17 @@ public boolean isLoggedSuccess() {
 
 
     public boolean isErrorMassagePresent1() {
-        if (isElementPresent(By.cssSelector("div[class='input-container'] div:nth-child(1)"))){
+        if (isElementPresent(By.cssSelector("div[class='input-container'] div:nth-child(1)"))) {
 
-        }return true;
+        }
+        return true;
     }
-    public boolean isErrorMassagePresent2() {
-        if (isElementPresent(By.cssSelector("div[class='input-container'] div:nth-child(2)"))){
 
-        }return true;
+    public boolean isErrorMassagePresent2() {
+        if (isElementPresent(By.cssSelector("div[class='input-container'] div:nth-child(2)"))) {
+
+        }
+        return true;
     }
 
     public void ReturnToTheMainPage() {
@@ -127,30 +134,44 @@ public boolean isLoggedSuccess() {
     }
 
     public boolean isMassageErrorPresent1() {
-        if (isElementPresent(By.cssSelector("div[class='error'] div:nth-child(1)"))){
+        if (isElementPresent(By.cssSelector("div[class='error'] div:nth-child(1)"))) {
 
-        }return true;
+        }
+        return true;
     }
-    public boolean isMassageErrorPresent2() {
-        if (isElementPresent(By.cssSelector("div[class='input-container'] div:nth-child(2)"))){
 
-        }return true;
+    public boolean isMassageErrorPresent2() {
+        if (isElementPresent(By.cssSelector("div[class='input-container'] div:nth-child(2)"))) {
+
+        }
+        return true;
     }
 
     public void checkPolicy() {
 
-       //  js.executeScript("document.querySelector('#terms-of-use').click();");
+        //  js.executeScript("document.querySelector('#terms-of-use').click();");
         // js.executeScript("document.querySelector('#terms-of-use').checked=true;");
         // click(By.id("email"));
         Actions actions = new Actions(wd);
         WebElement container = wd.findElement(By.cssSelector(".checkbox-container"));
         Rectangle rect = container.getRect();
-        int x = rect.getX() + rect.getWidth()/10;
+        int x = rect.getX() + rect.getWidth() / 10;
         //int x = rect.getX() + 5;
 
-        int y = rect.getY() + (1/4*rect.getHeight());
+        int y = rect.getY() + (1 / 4 * rect.getHeight());
 
-        actions.moveByOffset(x,y).click().perform();
+        actions.moveByOffset(x, y).click().perform();
+    }
+
+    public boolean isSubmitFormPresent() {
+        if (isElementPresent(By.cssSelector("[type='submit']"))) {
+
+        }
+        return true;
+    }
+
+    public void authorizationErrorOk() {
+        click(By.cssSelector("button[type='button']"));
     }
 }
 

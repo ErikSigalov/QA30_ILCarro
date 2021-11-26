@@ -47,8 +47,8 @@ public class CarHelper extends HelperBase{
     }
 
     public void select(By locator, String option) {
-        new Select(wd.findElement(locator)).selectByIndex(1); //petrol
-        //new Select(wd.findElement(locator)).selectByValue("option");
+        //new Select(wd.findElement(locator)).selectByIndex(1); //petrol
+        new Select(wd.findElement(locator)).selectByValue(option);
         //new Select(wd.findElement(locator)).selectByVisibleText("Electric");
     }
 

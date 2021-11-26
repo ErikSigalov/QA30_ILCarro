@@ -21,29 +21,29 @@ public class LoginTests extends TestBase {
         }
     }
 
-    @Test(dataProvider = "loginModelDto",dataProviderClass = MyDataProvider.class)
-    public void test() {
-        User user = new User().withEmail("eriknet2010@mail.ru").withPassword("Erik12345$");
+    @Test(dataProvider = "loginModelDto", dataProviderClass = MyDataProvider.class)
+    public void test(User user) {
+        //User user = new User().withEmail("eriknet2010@mail.ru").withPassword("Erik12345$");
 
-        System.out.println("email" + "&&" + "password");
+        //System.out.println("email" + "&&" + "password");
 
         app.getUserHelper().openLoginForm();
         app.getUserHelper().fillLoginForm(user);
         app.getUserHelper().submitForm();
-
+        app.getUserHelper().clickOkButton();
         Assert.assertTrue(app.getUserHelper().isLoggedSuccess());
     }
 
 
-    @Test(dataProvider = "loginDto",dataProviderClass = MyDataProvider.class)
-    public void test2(String email,String password) {
+    @Test(dataProvider = "loginDto", dataProviderClass = MyDataProvider.class)
+    public void test2(String email, String password) {
 
         //String email = "eriknet2010@mail.ru";
         //String password = "Erik12345$";
         app.getUserHelper().openLoginForm();
         app.getUserHelper().fillLoginForm(email, password);
         app.getUserHelper().submitForm();
-
+        app.getUserHelper().clickOkButton();
         Assert.assertTrue(app.getUserHelper().isLoggedSuccess());
     }
 
@@ -54,22 +54,23 @@ public class LoginTests extends TestBase {
         //app.getUserHelper().submitForm();
 
         //Assert.assertFalse(app.getUserHelper().isLoggedSuccess());
-        Assert.assertTrue(app.getUserHelper().isButtonPresent());
+        Assert.assertTrue(app.getUserHelper().isSubmitFormPresent());
         Assert.assertTrue(app.getUserHelper().isErrorTextPresent());
+        app.getUserHelper().ReturnToTheMainPage();
     }
 
     @Test
     public void wrongPasswordLogin() {
         app.getUserHelper().openLoginForm();
-        app.getUserHelper().fillLoginForm("eriknet@2010mail.ru", "Erik12345");
-        //app.getUserHelper().submitForm();
+        app.getUserHelper().fillLoginForm("eriknet2010@mail.ru", "Erik12345");
+        app.getUserHelper().submitForm();
+        app.getUserHelper().authorizationErrorOk();
 
         //Assert.assertFalse(app.getUserHelper().isLoggedSuccess());
 
-        //Assert.assertFalse(isElementPresent(By.xpath("//button[text()='Sign Out']")));
-        //Assert.assertFalse(app.getUser().isLogged());
+        Assert.assertTrue(app.getUserHelper().isSubmitFormPresent());
         Assert.assertTrue(app.getUserHelper().isErrorMessageWrongFormat());
-
+        app.getUserHelper().ReturnToTheMainPage();
     }
 
     @Test
@@ -84,6 +85,6 @@ public class LoginTests extends TestBase {
     @AfterMethod
     public void postCondition() {
 
-        app.getUserHelper().clickOkButton();
+        //app.getUserHelper().clickOkButton();
     }
 }
