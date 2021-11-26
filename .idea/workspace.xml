@@ -4,76 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91074817-f035-4863-ac8e-c105d430f350" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211124T195940.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211124T202034.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211124T202734.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T182946.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T183905.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T184624.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T185526.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T190348.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T190704.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T190952.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T191337.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T192013.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T221345.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T222243.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T223319.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T223612.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T223909.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T224127.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T231828.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211125T232238.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211126T203254.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211126T204028.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211126T204442.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211126T205118.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211126T205421.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20211126T210631.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1178.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1288.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1306.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1419.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1421.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1425.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1488.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1496.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1773.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1852.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1860.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2061.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2069.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2462.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2470.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2852.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2861.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-3381.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-3390.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-666.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-883.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-885.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-887.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-888.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-889.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-890.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-893.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/CarHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/CarHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/UserHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/UserHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/AddNewCarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AddNewCarTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Без названия.jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="91074817-f035-4863-ac8e-c105d430f350" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
