@@ -5,7 +5,7 @@
 
     <test name="Reg">
         <classes>
-            <class name="test.AddNewCarTests"/>
+            <class name="test.RegistrationTest"/>
         </classes>
     </test>
 </suite>

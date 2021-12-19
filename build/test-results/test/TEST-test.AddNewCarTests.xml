@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.AddNewCarTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-26T20:08:28" hostname="DESKTOP-5I9HDR9" time="42.424">
+  <properties/>
+  <testcase name="addNewTestPositive" classname="test.AddNewCarTests" time="19.1"/>
+  <testcase name="addNewTestPositive1" classname="test.AddNewCarTests" time="17.47"/>
+  <system-out><![CDATA[22:08:21 [Test worker] INFO  test.TestBase - Start test -->addNewTestPositive
+22:08:21 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+22:08:21 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+22:08:21 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+22:08:21 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+22:08:22 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: email
+22:08:22 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: emailwas found
+22:08:24 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: password
+22:08:24 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: passwordwas found
+22:08:25 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [type='submit']
+22:08:25 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit']was found
+22:08:26 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Ok']
+22:08:26 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Ok']was found
+22:08:26 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Ok']
+22:08:27 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Ok']was found
+22:08:28 [Test worker] INFO  manager.NgListener - Start of test --->addNewTestPositive
+22:08:28 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: 1
+22:08:28 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: 1was found
+22:08:29 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: h2
+22:08:29 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: h2was found
+22:08:29 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: pickUpPlace
+22:08:29 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: pickUpPlacewas found
+22:08:30 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: div.pac-item
+22:08:31 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: div.pac-itemwas found
+22:08:32 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: make
+22:08:32 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: makewas found
+22:08:33 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: model
+22:08:33 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: modelwas found
+22:08:33 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: year
+22:08:33 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: yearwas found
+22:08:34 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: engine
+22:08:34 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: enginewas found
+22:08:34 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: fuel
+22:08:34 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: fuelwas found
+22:08:34 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: .//option[@value = "Hybrid"]
+22:08:34 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: .//option[@value = "Hybrid"]was found
+22:08:35 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: gear
+22:08:35 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: gearwas found
+22:08:35 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: .//option[@value = "MT"]
+22:08:35 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: .//option[@value = "MT"]was found
+22:08:35 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: wheelsDrive
+22:08:35 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: wheelsDrivewas found
+22:08:35 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: .//option[@value = "AWD"]
+22:08:35 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: .//option[@value = "AWD"]was found
+22:08:36 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: doors
+22:08:36 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: doorswas found
+22:08:36 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: seats
+22:08:36 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: seatswas found
+22:08:37 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: class
+22:08:37 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: classwas found
+22:08:37 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: fuelConsumption
+22:08:37 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: fuelConsumptionwas found
+22:08:37 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: serialNumber
+22:08:38 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: serialNumberwas found
+22:08:38 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: price
+22:08:38 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: pricewas found
+22:08:38 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: distance
+22:08:38 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: distancewas found
+22:08:39 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .feature-input
+22:08:39 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .feature-inputwas found
+22:08:39 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: about
+22:08:39 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: aboutwas found
+22:08:40 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: photos
+22:08:41 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: photoswas found
+22:08:41 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [type='submit']
+22:08:41 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit']was found
+22:08:45 [Test worker] INFO  manager.MyListener - start search element by locator --->By.className: dialog-container
+22:08:47 [Test worker] INFO  manager.MyListener - The element with locator ---> By.className: dialog-containerwas found
+22:08:47 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .dialog-container h1
+22:08:47 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .dialog-container h1was found
+22:08:47 [Test worker] INFO  manager.NgListener - Success test --->addNewTestPositive
+22:08:47 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[.='Search cars']
+22:08:47 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[.='Search cars']was found
+22:08:47 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Logout ']
+22:08:48 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Logout ']was found
+22:08:49 [Test worker] INFO  test.TestBase - **********************************
+22:08:49 [Test worker] INFO  test.TestBase - Start test -->addNewTestPositive1
+22:08:49 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+22:08:49 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+22:08:49 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Log in ']
+22:08:49 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Log in ']was found
+22:08:49 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: email
+22:08:49 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: emailwas found
+22:08:50 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: password
+22:08:50 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: passwordwas found
+22:08:51 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [type='submit']
+22:08:51 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit']was found
+22:08:51 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Ok']
+22:08:51 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Ok']was found
+22:08:51 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Ok']
+22:08:52 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Ok']was found
+22:08:53 [Test worker] INFO  manager.NgListener - Start of test --->addNewTestPositive1
+22:08:53 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: 1
+22:08:53 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: 1was found
+22:08:53 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: h2
+22:08:53 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: h2was found
+22:08:54 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: pickUpPlace
+22:08:54 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: pickUpPlacewas found
+22:08:54 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: div.pac-item
+22:08:54 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: div.pac-itemwas found
+22:08:56 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: make
+22:08:56 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: makewas found
+22:08:56 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: model
+22:08:56 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: modelwas found
+22:08:56 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: year
+22:08:57 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: yearwas found
+22:08:57 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: engine
+22:08:57 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: enginewas found
+22:08:57 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: fuel
+22:08:57 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: fuelwas found
+22:08:57 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: .//option[@value = "Electric"]
+22:08:57 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: .//option[@value = "Electric"]was found
+22:08:58 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: gear
+22:08:58 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: gearwas found
+22:08:58 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: .//option[@value = "AT"]
+22:08:58 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: .//option[@value = "AT"]was found
+22:08:58 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: wheelsDrive
+22:08:58 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: wheelsDrivewas found
+22:08:58 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: .//option[@value = "AWD"]
+22:08:58 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: .//option[@value = "AWD"]was found
+22:08:59 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: doors
+22:08:59 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: doorswas found
+22:08:59 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: seats
+22:08:59 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: seatswas found
+22:09:00 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: class
+22:09:00 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: classwas found
+22:09:00 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: fuelConsumption
+22:09:00 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: fuelConsumptionwas found
+22:09:01 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: serialNumber
+22:09:01 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: serialNumberwas found
+22:09:02 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: price
+22:09:02 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: pricewas found
+22:09:03 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: distance
+22:09:03 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: distancewas found
+22:09:04 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .feature-input
+22:09:04 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .feature-inputwas found
+22:09:04 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: about
+22:09:04 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: aboutwas found
+22:09:06 [Test worker] INFO  manager.MyListener - start search element by locator --->By.id: photos
+22:09:06 [Test worker] INFO  manager.MyListener - The element with locator ---> By.id: photoswas found
+22:09:06 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [type='submit']
+22:09:06 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [type='submit']was found
+22:09:08 [Test worker] INFO  manager.MyListener - start search element by locator --->By.className: dialog-container
+22:09:10 [Test worker] INFO  manager.MyListener - The element with locator ---> By.className: dialog-containerwas found
+22:09:10 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .dialog-container h1
+22:09:10 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .dialog-container h1was found
+22:09:10 [Test worker] INFO  manager.NgListener - Success test --->addNewTestPositive1
+22:09:10 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[.='Search cars']
+22:09:10 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[.='Search cars']was found
+22:09:11 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()=' Logout ']
+22:09:12 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()=' Logout ']was found
+22:09:13 [Test worker] INFO  test.TestBase - **********************************
+]]></system-out>
+  <system-err><![CDATA[1637957302463	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1637957309349	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1637957311798	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1637957335476	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+]]></system-err>
+</testsuite>
